@@ -22,7 +22,7 @@ Then, run the project!
 ---
 
 ### Demo
-![demo](https://user-images.githubusercontent.com/63889477/170126581-dfd3fc47-9ccd-475b-999f-035f5eaa6075.gif)
+![demo](https://user-images.githubusercontent.com/63889477/170126902-3e1e2543-722a-41dc-a597-263aefecf77f.gif)
 
 ---
 
