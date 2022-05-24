@@ -7,9 +7,7 @@
 
 Test project for LTK.
 
-#### Deployment Info
-
-Deployment Target: iOS 15.1
+- Deployment Target: iOS 15.1
 
 ---
 
