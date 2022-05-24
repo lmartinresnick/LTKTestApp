@@ -20,7 +20,10 @@ Make sure the project has finished loading and resolving Packages.
 Then, run the project!
 
 ---
-![ltkgif](https://user-images.githubusercontent.com/63889477/170126200-d73a04d1-d713-4007-9b4d-e5c2af7b3d3b.gif)
+
+### Demo
+![demo](https://user-images.githubusercontent.com/63889477/170126581-dfd3fc47-9ccd-475b-999f-035f5eaa6075.gif)
+
 ---
 
 ## Built with:
