@@ -100,23 +100,3 @@ extension URL {
         return url
     }
 }
-
-/*
- We would like for you to complete a small project and demonstration so that we can get a feel for your skills and how you will gel with our team. I’ll briefly describe the project requirements, then the process that you should follow to submit your work to us, and then how the demonstration will go. Please do not spend more than two or three hours on this project, it is ok if you do not finish because this is meant to be a challenge. We’re more interested in your process and the efficacy of the code that you do write than the amount of features that you complete.
-
- Requirements
- Build a feed of full-width images that are consumed from a production API. A. All of our images are in an aspect ratio that supports an edge-to-edge (full-width) UI. So, no worries there. B. The feed should support pagination.
- When a user taps on one of the full-width images, then a detail view should be pushed onto the view stack. The detail view should contain product images, the hero image, and the profile picture. A. All of this information is returned from the API. To relate the different models together (ltk, product, and profile), take a look at the JSON that is returned. There are top-level lists for each of these. The ltk has a list of associated product_ids and an associated profile_id.
- When a user taps on one of the product images, then the associated  should resolve in a WebView (either in safari or in the app itself).
- To power the above requirements, you’ll consume the following public API: https://api-gateway.rewardstyle.com/api/ltk/v2/ltks/?featured=true&limit=20
- Guidelines
- Feel free to create your own project and not use the empty one attached to this task.
-
- You can use any resources that you would normally use in your day-to-day coding You can also use any third-party libraries that you like
-
- Submission
- Uplaod a zip ofthe file to this site and/or make it publically avaliable on Github and email a link to us.
-
- Demo
- You’ll meet with a panel of engineers who will have reviewed your project, and will have lots of questions for you about it. But, before the panel begins questioning, we would like for you to spend about 20 minutes presenting the reasoning behind your programming choices and just generally talking about your code.
- */
