@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CFFCD17A283C896300BDAAED /* LTKTestAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFFCD179283C896300BDAAED /* LTKTestAppApp.swift */; };
+		CFFCD17C283C896300BDAAED /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFFCD17B283C896300BDAAED /* ContentView.swift */; };
+		CFFCD17E283C896500BDAAED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFFCD17D283C896500BDAAED /* Assets.xcassets */; };
+		CFFCD181283C896500BDAAED /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFFCD180283C896500BDAAED /* Preview Assets.xcassets */; };
+		CFFCD18B283C896600BDAAED /* LTKTestAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFFCD18A283C896600BDAAED /* LTKTestAppTests.swift */; };
+		CFFCD195283C896600BDAAED /* LTKTestAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFFCD194283C896600BDAAED /* LTKTestAppUITests.swift */; };
+		CFFCD197283C896600BDAAED /* LTKTestAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFFCD196283C896600BDAAED /* LTKTestAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CFFCD187283C896600BDAAED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFFCD16E283C896300BDAAED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFFCD175283C896300BDAAED;
+			remoteInfo = LTKTestApp;
+		};
+		CFFCD191283C896600BDAAED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFFCD16E283C896300BDAAED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFFCD175283C896300BDAAED;
+			remoteInfo = LTKTestApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CFFCD176283C896300BDAAED /* LTKTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LTKTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFFCD179283C896300BDAAED /* LTKTestAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LTKTestAppApp.swift; sourceTree = "<group>"; };
+		CFFCD17B283C896300BDAAED /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CFFCD17D283C896500BDAAED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CFFCD180283C896500BDAAED /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CFFCD186283C896600BDAAED /* LTKTestAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LTKTestAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFFCD18A283C896600BDAAED /* LTKTestAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LTKTestAppTests.swift; sourceTree = "<group>"; };
+		CFFCD190283C896600BDAAED /* LTKTestAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LTKTestAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFFCD194283C896600BDAAED /* LTKTestAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LTKTestAppUITests.swift; sourceTree = "<group>"; };
+		CFFCD196283C896600BDAAED /* LTKTestAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LTKTestAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CFFCD173283C896300BDAAED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFFCD183283C896600BDAAED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFFCD18D283C896600BDAAED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CFFCD16D283C896300BDAAED = {
+			isa = PBXGroup;
+			children = (
+				CFFCD178283C896300BDAAED /* LTKTestApp */,
+				CFFCD189283C896600BDAAED /* LTKTestAppTests */,
+				CFFCD193283C896600BDAAED /* LTKTestAppUITests */,
+				CFFCD177283C896300BDAAED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CFFCD177283C896300BDAAED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFFCD176283C896300BDAAED /* LTKTestApp.app */,
+				CFFCD186283C896600BDAAED /* LTKTestAppTests.xctest */,
+				CFFCD190283C896600BDAAED /* LTKTestAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFFCD178283C896300BDAAED /* LTKTestApp */ = {
+			isa = PBXGroup;
+			children = (
+				CFFCD179283C896300BDAAED /* LTKTestAppApp.swift */,
+				CFFCD17B283C896300BDAAED /* ContentView.swift */,
+				CFFCD17D283C896500BDAAED /* Assets.xcassets */,
+				CFFCD17F283C896500BDAAED /* Preview Content */,
+			);
+			path = LTKTestApp;
+			sourceTree = "<group>";
+		};
+		CFFCD17F283C896500BDAAED /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CFFCD180283C896500BDAAED /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CFFCD189283C896600BDAAED /* LTKTestAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				CFFCD18A283C896600BDAAED /* LTKTestAppTests.swift */,
+			);
+			path = LTKTestAppTests;
+			sourceTree = "<group>";
+		};
+		CFFCD193283C896600BDAAED /* LTKTestAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CFFCD194283C896600BDAAED /* LTKTestAppUITests.swift */,
+				CFFCD196283C896600BDAAED /* LTKTestAppUITestsLaunchTests.swift */,
+			);
+			path = LTKTestAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CFFCD175283C896300BDAAED /* LTKTestApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFFCD19A283C896600BDAAED /* Build configuration list for PBXNativeTarget "LTKTestApp" */;
+			buildPhases = (
+				CFFCD172283C896300BDAAED /* Sources */,
+				CFFCD173283C896300BDAAED /* Frameworks */,
+				CFFCD174283C896300BDAAED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LTKTestApp;
+			productName = LTKTestApp;
+			productReference = CFFCD176283C896300BDAAED /* LTKTestApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CFFCD185283C896600BDAAED /* LTKTestAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFFCD19D283C896600BDAAED /* Build configuration list for PBXNativeTarget "LTKTestAppTests" */;
+			buildPhases = (
+				CFFCD182283C896600BDAAED /* Sources */,
+				CFFCD183283C896600BDAAED /* Frameworks */,
+				CFFCD184283C896600BDAAED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFFCD188283C896600BDAAED /* PBXTargetDependency */,
+			);
+			name = LTKTestAppTests;
+			productName = LTKTestAppTests;
+			productReference = CFFCD186283C896600BDAAED /* LTKTestAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CFFCD18F283C896600BDAAED /* LTKTestAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFFCD1A0283C896600BDAAED /* Build configuration list for PBXNativeTarget "LTKTestAppUITests" */;
+			buildPhases = (
+				CFFCD18C283C896600BDAAED /* Sources */,
+				CFFCD18D283C896600BDAAED /* Frameworks */,
+				CFFCD18E283C896600BDAAED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFFCD192283C896600BDAAED /* PBXTargetDependency */,
+			);
+			name = LTKTestAppUITests;
+			productName = LTKTestAppUITests;
+			productReference = CFFCD190283C896600BDAAED /* LTKTestAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFFCD16E283C896300BDAAED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					CFFCD175283C896300BDAAED = {
+						CreatedOnToolsVersion = 13.4;
+					};
+					CFFCD185283C896600BDAAED = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = CFFCD175283C896300BDAAED;
+					};
+					CFFCD18F283C896600BDAAED = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = CFFCD175283C896300BDAAED;
+					};
+				};
+			};
+			buildConfigurationList = CFFCD171283C896300BDAAED /* Build configuration list for PBXProject "LTKTestApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CFFCD16D283C896300BDAAED;
+			productRefGroup = CFFCD177283C896300BDAAED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFFCD175283C896300BDAAED /* LTKTestApp */,
+				CFFCD185283C896600BDAAED /* LTKTestAppTests */,
+				CFFCD18F283C896600BDAAED /* LTKTestAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CFFCD174283C896300BDAAED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFFCD181283C896500BDAAED /* Preview Assets.xcassets in Resources */,
+				CFFCD17E283C896500BDAAED /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFFCD184283C896600BDAAED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFFCD18E283C896600BDAAED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CFFCD172283C896300BDAAED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFFCD17C283C896300BDAAED /* ContentView.swift in Sources */,
+				CFFCD17A283C896300BDAAED /* LTKTestAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFFCD182283C896600BDAAED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFFCD18B283C896600BDAAED /* LTKTestAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFFCD18C283C896600BDAAED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFFCD197283C896600BDAAED /* LTKTestAppUITestsLaunchTests.swift in Sources */,
+				CFFCD195283C896600BDAAED /* LTKTestAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CFFCD188283C896600BDAAED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFFCD175283C896300BDAAED /* LTKTestApp */;
+			targetProxy = CFFCD187283C896600BDAAED /* PBXContainerItemProxy */;
+		};
+		CFFCD192283C896600BDAAED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFFCD175283C896300BDAAED /* LTKTestApp */;
+			targetProxy = CFFCD191283C896600BDAAED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CFFCD198283C896600BDAAED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CFFCD199283C896600BDAAED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CFFCD19B283C896600BDAAED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LTKTestApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 928U398MJS;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = x.LMR.LTKTestApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CFFCD19C283C896600BDAAED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LTKTestApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 928U398MJS;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = x.LMR.LTKTestApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CFFCD19E283C896600BDAAED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 928U398MJS;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = x.LMR.LTKTestAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LTKTestApp.app/LTKTestApp";
+			};
+			name = Debug;
+		};
+		CFFCD19F283C896600BDAAED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 928U398MJS;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = x.LMR.LTKTestAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LTKTestApp.app/LTKTestApp";
+			};
+			name = Release;
+		};
+		CFFCD1A1283C896600BDAAED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 928U398MJS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = x.LMR.LTKTestAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LTKTestApp;
+			};
+			name = Debug;
+		};
+		CFFCD1A2283C896600BDAAED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 928U398MJS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = x.LMR.LTKTestAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LTKTestApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CFFCD171283C896300BDAAED /* Build configuration list for PBXProject "LTKTestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFFCD198283C896600BDAAED /* Debug */,
+				CFFCD199283C896600BDAAED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFFCD19A283C896600BDAAED /* Build configuration list for PBXNativeTarget "LTKTestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFFCD19B283C896600BDAAED /* Debug */,
+				CFFCD19C283C896600BDAAED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFFCD19D283C896600BDAAED /* Build configuration list for PBXNativeTarget "LTKTestAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFFCD19E283C896600BDAAED /* Debug */,
+				CFFCD19F283C896600BDAAED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFFCD1A0283C896600BDAAED /* Build configuration list for PBXNativeTarget "LTKTestAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFFCD1A1283C896600BDAAED /* Debug */,
+				CFFCD1A2283C896600BDAAED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CFFCD16E283C896300BDAAED /* Project object */;
+}
