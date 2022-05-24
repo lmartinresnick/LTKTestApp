@@ -8,12 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		CFFCD17A283C896300BDAAED /* LTKTestAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFFCD179283C896300BDAAED /* LTKTestAppApp.swift */; };
-		CFFCD17C283C896300BDAAED /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFFCD17B283C896300BDAAED /* ContentView.swift */; };
+		CFFCD17C283C896300BDAAED /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFFCD17B283C896300BDAAED /* HomeView.swift */; };
 		CFFCD17E283C896500BDAAED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFFCD17D283C896500BDAAED /* Assets.xcassets */; };
 		CFFCD181283C896500BDAAED /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFFCD180283C896500BDAAED /* Preview Assets.xcassets */; };
 		CFFCD18B283C896600BDAAED /* LTKTestAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFFCD18A283C896600BDAAED /* LTKTestAppTests.swift */; };
 		CFFCD195283C896600BDAAED /* LTKTestAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFFCD194283C896600BDAAED /* LTKTestAppUITests.swift */; };
 		CFFCD197283C896600BDAAED /* LTKTestAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFFCD196283C896600BDAAED /* LTKTestAppUITestsLaunchTests.swift */; };
+		CFFCD1A5283C898500BDAAED /* APIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFFCD1A4283C898500BDAAED /* APIRequest.swift */; };
+		CFFCD1A7283C89CF00BDAAED /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFFCD1A6283C89CF00BDAAED /* NetworkManager.swift */; };
+		CFFCD1AA283C8A2600BDAAED /* FeedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFFCD1A9283C8A2600BDAAED /* FeedViewModel.swift */; };
+		CFFCD1AD283C8A4700BDAAED /* Feed.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFFCD1AC283C8A4700BDAAED /* Feed.swift */; };
+		CFFCD1AF283C8D6900BDAAED /* MediaObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFFCD1AE283C8D6900BDAAED /* MediaObject.swift */; };
+		CFFCD1B1283C8D7D00BDAAED /* TypeProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFFCD1B0283C8D7D00BDAAED /* TypeProperties.swift */; };
+		CFFCD1B3283C8D9000BDAAED /* LTK.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFFCD1B2283C8D9000BDAAED /* LTK.swift */; };
+		CFFCD1B5283C8D9D00BDAAED /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFFCD1B4283C8D9D00BDAAED /* Profile.swift */; };
+		CFFCD1B7283C8DAA00BDAAED /* Meta.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFFCD1B6283C8DAA00BDAAED /* Meta.swift */; };
+		CFFCD1B9283C8DBD00BDAAED /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFFCD1B8283C8DBD00BDAAED /* Product.swift */; };
+		CFFCD1BC283C8DF500BDAAED /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = CFFCD1BB283C8DF500BDAAED /* Kingfisher */; };
+		CFFCD1BF283C8E1400BDAAED /* SwiftySwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = CFFCD1BE283C8E1400BDAAED /* SwiftySwiftUI */; };
+		CFFCD1C1283C8ECA00BDAAED /* RequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFFCD1C0283C8ECA00BDAAED /* RequestManager.swift */; };
+		CFFCD1C5283C912A00BDAAED /* KFImage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFFCD1C4283C912A00BDAAED /* KFImage+Extensions.swift */; };
+		CFFCD1CA283C96A900BDAAED /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFFCD1C9283C96A900BDAAED /* DetailView.swift */; };
+		CFFCD1CC283C9D2600BDAAED /* PrimaryGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFFCD1CB283C9D2600BDAAED /* PrimaryGridView.swift */; };
+		CFFCD1CE283CA4BF00BDAAED /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFFCD1CD283CA4BE00BDAAED /* View+Extensions.swift */; };
+		CFFCD1D1283CA6F000BDAAED /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFFCD1D0283CA6F000BDAAED /* String+Extensions.swift */; };
+		CFFCD1D6283CB2A900BDAAED /* NavigationButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFFCD1D5283CB2A900BDAAED /* NavigationButton.swift */; };
+		CFFCD1D9283CB37900BDAAED /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = CFFCD1D8283CB37900BDAAED /* Localizable.strings */; };
+		CFFCD1DF283CB99400BDAAED /* ProductImageCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFFCD1DE283CB99400BDAAED /* ProductImageCellView.swift */; };
+		CFFCD1E2283CE06A00BDAAED /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFFCD1E1283CE06A00BDAAED /* Config.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +58,7 @@
 /* Begin PBXFileReference section */
 		CFFCD176283C896300BDAAED /* LTKTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LTKTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFFCD179283C896300BDAAED /* LTKTestAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LTKTestAppApp.swift; sourceTree = "<group>"; };
-		CFFCD17B283C896300BDAAED /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CFFCD17B283C896300BDAAED /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		CFFCD17D283C896500BDAAED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CFFCD180283C896500BDAAED /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CFFCD186283C896600BDAAED /* LTKTestAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LTKTestAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +66,29 @@
 		CFFCD190283C896600BDAAED /* LTKTestAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LTKTestAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFFCD194283C896600BDAAED /* LTKTestAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LTKTestAppUITests.swift; sourceTree = "<group>"; };
 		CFFCD196283C896600BDAAED /* LTKTestAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LTKTestAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CFFCD1A4283C898500BDAAED /* APIRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRequest.swift; sourceTree = "<group>"; };
+		CFFCD1A6283C89CF00BDAAED /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		CFFCD1A9283C8A2600BDAAED /* FeedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewModel.swift; sourceTree = "<group>"; };
+		CFFCD1AC283C8A4700BDAAED /* Feed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feed.swift; sourceTree = "<group>"; };
+		CFFCD1AE283C8D6900BDAAED /* MediaObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaObject.swift; sourceTree = "<group>"; };
+		CFFCD1B0283C8D7D00BDAAED /* TypeProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeProperties.swift; sourceTree = "<group>"; };
+		CFFCD1B2283C8D9000BDAAED /* LTK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LTK.swift; sourceTree = "<group>"; };
+		CFFCD1B4283C8D9D00BDAAED /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		CFFCD1B6283C8DAA00BDAAED /* Meta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meta.swift; sourceTree = "<group>"; };
+		CFFCD1B8283C8DBD00BDAAED /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		CFFCD1C0283C8ECA00BDAAED /* RequestManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestManager.swift; sourceTree = "<group>"; };
+		CFFCD1C4283C912A00BDAAED /* KFImage+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "KFImage+Extensions.swift"; sourceTree = "<group>"; };
+		CFFCD1C9283C96A900BDAAED /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		CFFCD1CB283C9D2600BDAAED /* PrimaryGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryGridView.swift; sourceTree = "<group>"; };
+		CFFCD1CD283CA4BE00BDAAED /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
+		CFFCD1D0283CA6F000BDAAED /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		CFFCD1D5283CB2A900BDAAED /* NavigationButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationButton.swift; sourceTree = "<group>"; };
+		CFFCD1D8283CB37900BDAAED /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		CFFCD1DE283CB99400BDAAED /* ProductImageCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductImageCellView.swift; sourceTree = "<group>"; };
+		CFFCD1E1283CE06A00BDAAED /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		CFFCD1E3283CE0CE00BDAAED /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
+		CFFCD1E4283CE16100BDAAED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		CFFCD1E5283CE18300BDAAED /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +96,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFFCD1BF283C8E1400BDAAED /* SwiftySwiftUI in Frameworks */,
+				CFFCD1BC283C8DF500BDAAED /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,9 +141,15 @@
 		CFFCD178283C896300BDAAED /* LTKTestApp */ = {
 			isa = PBXGroup;
 			children = (
+				CFFCD1E4283CE16100BDAAED /* Info.plist */,
 				CFFCD179283C896300BDAAED /* LTKTestAppApp.swift */,
-				CFFCD17B283C896300BDAAED /* ContentView.swift */,
-				CFFCD17D283C896500BDAAED /* Assets.xcassets */,
+				CFFCD1E0283CCE3900BDAAED /* SupportingFiles */,
+				CFFCD1D7283CB35000BDAAED /* Resources */,
+				CFFCD1C8283C968800BDAAED /* Views */,
+				CFFCD1C2283C910C00BDAAED /* Helpers */,
+				CFFCD1AB283C8A2B00BDAAED /* Models */,
+				CFFCD1A8283C8A1B00BDAAED /* ViewModel */,
+				CFFCD1A3283C897400BDAAED /* Networking */,
 				CFFCD17F283C896500BDAAED /* Preview Content */,
 			);
 			path = LTKTestApp;
@@ -127,6 +180,135 @@
 			path = LTKTestAppUITests;
 			sourceTree = "<group>";
 		};
+		CFFCD1A3283C897400BDAAED /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				CFFCD1A4283C898500BDAAED /* APIRequest.swift */,
+				CFFCD1A6283C89CF00BDAAED /* NetworkManager.swift */,
+				CFFCD1C0283C8ECA00BDAAED /* RequestManager.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		CFFCD1A8283C8A1B00BDAAED /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CFFCD1A9283C8A2600BDAAED /* FeedViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		CFFCD1AB283C8A2B00BDAAED /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CFFCD1AC283C8A4700BDAAED /* Feed.swift */,
+				CFFCD1B8283C8DBD00BDAAED /* Product.swift */,
+				CFFCD1B6283C8DAA00BDAAED /* Meta.swift */,
+				CFFCD1B4283C8D9D00BDAAED /* Profile.swift */,
+				CFFCD1AE283C8D6900BDAAED /* MediaObject.swift */,
+				CFFCD1B2283C8D9000BDAAED /* LTK.swift */,
+				CFFCD1B0283C8D7D00BDAAED /* TypeProperties.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CFFCD1C2283C910C00BDAAED /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				CFFCD1E6283CE4A500BDAAED /* Utilities */,
+				CFFCD1C3283C911C00BDAAED /* Extensions */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		CFFCD1C3283C911C00BDAAED /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CFFCD1C4283C912A00BDAAED /* KFImage+Extensions.swift */,
+				CFFCD1CD283CA4BE00BDAAED /* View+Extensions.swift */,
+				CFFCD1D0283CA6F000BDAAED /* String+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		CFFCD1C8283C968800BDAAED /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CFFCD1DC283CB6E300BDAAED /* Home */,
+				CFFCD1DD283CB6EA00BDAAED /* Detail */,
+				CFFCD1CF283CA4F300BDAAED /* Common */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CFFCD1CF283CA4F300BDAAED /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				CFFCD1CB283C9D2600BDAAED /* PrimaryGridView.swift */,
+				CFFCD1D5283CB2A900BDAAED /* NavigationButton.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		CFFCD1D7283CB35000BDAAED /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CFFCD1DB283CB38A00BDAAED /* Assets */,
+				CFFCD1DA283CB37E00BDAAED /* Translations */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CFFCD1DA283CB37E00BDAAED /* Translations */ = {
+			isa = PBXGroup;
+			children = (
+				CFFCD1D8283CB37900BDAAED /* Localizable.strings */,
+			);
+			path = Translations;
+			sourceTree = "<group>";
+		};
+		CFFCD1DB283CB38A00BDAAED /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				CFFCD17D283C896500BDAAED /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		CFFCD1DC283CB6E300BDAAED /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				CFFCD17B283C896300BDAAED /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		CFFCD1DD283CB6EA00BDAAED /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				CFFCD1C9283C96A900BDAAED /* DetailView.swift */,
+				CFFCD1DE283CB99400BDAAED /* ProductImageCellView.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		CFFCD1E0283CCE3900BDAAED /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				CFFCD1E1283CE06A00BDAAED /* Config.swift */,
+				CFFCD1E3283CE0CE00BDAAED /* Debug.xcconfig */,
+				CFFCD1E5283CE18300BDAAED /* Release.xcconfig */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		CFFCD1E6283CE4A500BDAAED /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +325,10 @@
 			dependencies = (
 			);
 			name = LTKTestApp;
+			packageProductDependencies = (
+				CFFCD1BB283C8DF500BDAAED /* Kingfisher */,
+				CFFCD1BE283C8E1400BDAAED /* SwiftySwiftUI */,
+			);
 			productName = LTKTestApp;
 			productReference = CFFCD176283C896300BDAAED /* LTKTestApp.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +401,10 @@
 				Base,
 			);
 			mainGroup = CFFCD16D283C896300BDAAED;
+			packageReferences = (
+				CFFCD1BA283C8DF500BDAAED /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				CFFCD1BD283C8E1400BDAAED /* XCRemoteSwiftPackageReference "SwiftySwiftUI" */,
+			);
 			productRefGroup = CFFCD177283C896300BDAAED /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -232,6 +422,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CFFCD181283C896500BDAAED /* Preview Assets.xcassets in Resources */,
+				CFFCD1D9283CB37900BDAAED /* Localizable.strings in Resources */,
 				CFFCD17E283C896500BDAAED /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,8 +448,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CFFCD17C283C896300BDAAED /* ContentView.swift in Sources */,
+				CFFCD1AA283C8A2600BDAAED /* FeedViewModel.swift in Sources */,
+				CFFCD1A7283C89CF00BDAAED /* NetworkManager.swift in Sources */,
+				CFFCD1C1283C8ECA00BDAAED /* RequestManager.swift in Sources */,
+				CFFCD1AF283C8D6900BDAAED /* MediaObject.swift in Sources */,
+				CFFCD1C5283C912A00BDAAED /* KFImage+Extensions.swift in Sources */,
+				CFFCD1D6283CB2A900BDAAED /* NavigationButton.swift in Sources */,
+				CFFCD17C283C896300BDAAED /* HomeView.swift in Sources */,
+				CFFCD1CC283C9D2600BDAAED /* PrimaryGridView.swift in Sources */,
+				CFFCD1B7283C8DAA00BDAAED /* Meta.swift in Sources */,
 				CFFCD17A283C896300BDAAED /* LTKTestAppApp.swift in Sources */,
+				CFFCD1CE283CA4BF00BDAAED /* View+Extensions.swift in Sources */,
+				CFFCD1CA283C96A900BDAAED /* DetailView.swift in Sources */,
+				CFFCD1AD283C8A4700BDAAED /* Feed.swift in Sources */,
+				CFFCD1D1283CA6F000BDAAED /* String+Extensions.swift in Sources */,
+				CFFCD1B1283C8D7D00BDAAED /* TypeProperties.swift in Sources */,
+				CFFCD1B3283C8D9000BDAAED /* LTK.swift in Sources */,
+				CFFCD1B9283C8DBD00BDAAED /* Product.swift in Sources */,
+				CFFCD1E2283CE06A00BDAAED /* Config.swift in Sources */,
+				CFFCD1DF283CB99400BDAAED /* ProductImageCellView.swift in Sources */,
+				CFFCD1A5283C898500BDAAED /* APIRequest.swift in Sources */,
+				CFFCD1B5283C8D9D00BDAAED /* Profile.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +507,7 @@
 /* Begin XCBuildConfiguration section */
 		CFFCD198283C896600BDAAED /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFFCD1E3283CE0CE00BDAAED /* Debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -357,6 +568,7 @@
 		};
 		CFFCD199283C896600BDAAED /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFFCD1E5283CE18300BDAAED /* Release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -411,6 +623,7 @@
 		};
 		CFFCD19B283C896600BDAAED /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFFCD1E3283CE0CE00BDAAED /* Debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -420,6 +633,7 @@
 				DEVELOPMENT_TEAM = 928U398MJS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LTKTestApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -440,6 +654,7 @@
 		};
 		CFFCD19C283C896600BDAAED /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFFCD1E5283CE18300BDAAED /* Release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -449,6 +664,7 @@
 				DEVELOPMENT_TEAM = 928U398MJS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LTKTestApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -469,6 +685,7 @@
 		};
 		CFFCD19E283C896600BDAAED /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFFCD1E3283CE0CE00BDAAED /* Debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -489,6 +706,7 @@
 		};
 		CFFCD19F283C896600BDAAED /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFFCD1E5283CE18300BDAAED /* Release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -509,6 +727,7 @@
 		};
 		CFFCD1A1283C896600BDAAED /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFFCD1E3283CE0CE00BDAAED /* Debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -527,6 +746,7 @@
 		};
 		CFFCD1A2283C896600BDAAED /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFFCD1E5283CE18300BDAAED /* Release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -583,6 +803,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CFFCD1BA283C8DF500BDAAED /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		CFFCD1BD283C8E1400BDAAED /* XCRemoteSwiftPackageReference "SwiftySwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/lmartinresnick/SwiftySwiftUI";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CFFCD1BB283C8DF500BDAAED /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CFFCD1BA283C8DF500BDAAED /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		CFFCD1BE283C8E1400BDAAED /* SwiftySwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CFFCD1BD283C8E1400BDAAED /* XCRemoteSwiftPackageReference "SwiftySwiftUI" */;
+			productName = SwiftySwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = CFFCD16E283C896300BDAAED /* Project object */;
 }

@@ -1,0 +1,13 @@
+//
+//  Release.xcconfig
+//  LTKTestApp
+//
+//  Created by Luke Martin-Resnick on 5/23/22.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+// Add API BASE URL and other secret keys from .env file here using build scripts!
+// Manually added it for demo/time purposes
+API_BASE_URL = https:/$()/api-gateway.rewardstyle.com/api/ltk/v2

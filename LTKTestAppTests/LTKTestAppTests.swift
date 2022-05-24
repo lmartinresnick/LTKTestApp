@@ -10,27 +10,56 @@ import XCTest
 
 class LTKTestAppTests: XCTestCase {
 
-    override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+    func test_noCall_callCountRemainsZero() {
+        let sut = makeSUT()
+
+        XCTAssertEqual(sut.requestCalledCount, 0)
+    }
+    
+    func test_noCall_UrlRequest_isNil() {
+        let sut = makeSUT()
+
+        XCTAssertNil(sut.requestSent)
     }
 
-    override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
+    func test_callCountIncreases() {
+        let sut = makeSUT()
+        let request = MockRequest<Feed>()
+        sut.sendRequest(request) { _ in }
+        
+        XCTAssertEqual(sut.requestCalledCount, 1)
     }
-
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-        // Any test you write for XCTest can be annotated as throws and async.
-        // Mark your test throws to produce an unexpected failure when your test encounters an uncaught error.
-        // Mark your test async to allow awaiting for asynchronous code to complete. Check the results with assertions afterwards.
+    
+    func test_UrlRequest_isValid() {
+        let sut = makeSUT()
+        let request = MockRequest<Feed>()
+        sut.sendRequest(request) { _ in }
+        
+        XCTAssertEqual(sut.requestSent?.url?.absoluteString, "https://example.com/v1/")
     }
+    
+    private func makeSUT() -> NetworkManagerSpy {
+        NetworkManagerSpy()
+    }
+    
+    private struct MockRequest<T: Decodable>: APIRequest {
+        var urlRequest: URLRequest {
+            return URLRequest(url: URL(string: "https://example.com/v1/")!)
+        }
 
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
+        func decodeResponse(data: Data) throws -> T {
+            let decodedResponse = try JSONDecoder().decode(T.self, from: data)
+            return decodedResponse
         }
     }
+}
 
+internal class NetworkManagerSpy: NetworkManager {
+    private(set) var requestCalledCount = 0
+    private(set) var requestSent: URLRequest?
+
+    override func sendRequest<Request: APIRequest>(_ request: Request, completion: @escaping (Result<Request.Response, APIRequestError>) -> Void) {
+        requestSent = request.urlRequest
+        requestCalledCount += 1
+    }
 }

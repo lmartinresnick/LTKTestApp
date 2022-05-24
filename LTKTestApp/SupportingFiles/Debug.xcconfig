@@ -1,0 +1,13 @@
+//
+//  Debug.xcconfig
+//  LTKTestApp
+//
+//  Created by Luke Martin-Resnick on 5/23/22.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+// Note I would typically create an API builder that would include 'api', version, etc.
+// For timesake, left it with the base URL
+API_BASE_URL = https:/$()/api-gateway.rewardstyle.com/api/ltk/v2

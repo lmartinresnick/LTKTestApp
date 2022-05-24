@@ -1,0 +1,29 @@
+/* 
+  Localizable.strings
+  LTKTestApp
+
+  Created by Luke Martin-Resnick on 5/23/22.
+  
+*/
+
+// MARK: - Common
+
+"common.ok" = "Ok";
+"common.confirm" = "Confirm";
+"common.cancel" = "Cancel";
+
+// MARK: - ================================
+
+// MARK: - Detail View
+
+"detailView.shopThePic.text" = "Shop the pic";
+"detailView.shopExactProducts.text" = "Shop exact products";
+
+// MARK: - Home View
+
+"homeView.navigationTitle" = "LTK Test App";
+"homeView.apiError.message" = "Error loading API.";
+
+
+
+
