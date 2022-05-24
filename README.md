@@ -20,6 +20,8 @@ Make sure the project has finished loading and resolving Packages.
 Then, run the project!
 
 ---
+![ltkgif](https://user-images.githubusercontent.com/63889477/170126200-d73a04d1-d713-4007-9b4d-e5c2af7b3d3b.gif)
+---
 
 ## Built with:
 * Swift
